@@ -1,0 +1,33 @@
+.paginationContainer {
+    display: flex;
+    align-items: center;
+    background-color: var(--grayLight);
+    border-radius: 50px;
+  }
+  
+  .paginationContainer div {
+    color: var(--grayTexts);
+    font-weight: 500;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    min-width: 35px;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .paginationContainer div:hover {
+    background-color: var(--greenHover);
+    color: var(--white);
+  }
+  .entriesInput {
+    border: 1px solid var(--grayTextsLight);
+    border-radius: 6px;
+    padding: 0.3rem;
+    outline: none;
+    color: var(--grayTexts);
+    cursor: pointer;
+  }
+  

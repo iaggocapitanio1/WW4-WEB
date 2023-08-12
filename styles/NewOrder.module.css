@@ -1,0 +1,22 @@
+.textarea {
+  width: 100%;
+  max-width: 100vh;
+  padding: 16.5px 14px;
+  border-radius: 4px;
+  border: 1px solid #bdbdbd;
+  outline: none !important;
+  min-height: 100px !important;
+  max-height: 200px !important;
+  font-family: 'Montserrat' !important;
+}
+
+.textarea:focus-within {
+  border-color: var(--primary);
+}
+
+.clientContainer {
+  background-color: var(--grayBG);
+  border: 1px solid var(--grayEdges);
+  border-radius: 4px;
+  padding-bottom: 24px;
+}

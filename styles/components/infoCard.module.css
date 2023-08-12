@@ -1,0 +1,16 @@
+.card {
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 600;
+
+}
+
+.cardTitle {
+  font-size: 14px;
+}

@@ -1,0 +1,26 @@
+.main {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30px;
+  /* background-color: var(--white); */
+  /* color: var(--primary); */
+  /* border: 1px solid var(--primary); */
+  font-size: 14px;
+  border-radius: 4px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+
+}
+
+.main:hover {
+  /* background-color: var(--babyblue) !important;
+  border-color: var(--babyblue);
+  color: var(--white) !important; */
+  background-color: var(--white) !important;
+  color: var(--primary) !important;
+  transition: ease-in-out 0.3s;
+}

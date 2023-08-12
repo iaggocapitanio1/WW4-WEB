@@ -1,0 +1,22 @@
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.filterContainer {
+    width: 100%;
+    flex: 0 1 300;
+  }
+  @media screen and (min-width: 40em) {
+    .filterContainer {
+      max-width: calc(50% - 1em);
+    }
+  }
+  
+  @media screen and (min-width: 60em) {
+    .filterContainer {
+      max-width: calc(25% - 1em);
+    }
+  }
+  

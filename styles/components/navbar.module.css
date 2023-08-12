@@ -1,0 +1,116 @@
+.main {
+  background-color: var(--primary-dark);
+  /* background-color: #282828; */
+  height: fit-content;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 12;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logos {
+  min-width: 60px;
+}
+
+.menuBtn:hover {
+  transition: ease-in-out 0.2s;
+  transform: scale(115%);
+}
+
+.logoImg {
+  max-width: 50px;
+  max-height: 50px;
+  padding: 5px;
+  align-self: center;
+  margin-left: 2rem;
+}
+
+.navItemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 1rem !important;
+  border-left: 5px solid transparent;
+  cursor: pointer;
+  color: var(--white)!important;
+  font-weight: 500;
+}
+
+.navItemContainer:hover {
+  border-left: 5px solid var(--white) !important;
+  transition: ease-in-out 0.5s;
+}
+
+.navigationButtons {
+  display: flex;
+}
+
+/* .userDropdown {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 1rem;
+  border-bottom: 5px solid transparent;
+  cursor: pointer;
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 500;
+} */
+.userDropdown {
+  background-position: center;
+  background-image: url('../../public/logo_bw_ww40_inv.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  margin: 0.2rem;
+}
+
+/* .userDropdown:hover {
+    border-bottom: 5px solid var(--white);
+    transition: ease-in-out 0.5s;
+  } */
+
+.drawerItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: fit-content;
+  padding: 1rem;
+  cursor: pointer;
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 500;
+  width: 100%;
+  border-left: 4px solid transparent;
+
+}
+
+.drawerItem span {
+  padding-right: 1rem;
+}
+
+.drawerItem:hover {
+  border-color: var(--white);
+}
+
+@media screen and (max-width: 40em) {}
+
+.breadcrumb {
+
+  color: var(--grayLight);
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  pointer-events: none;
+
+}

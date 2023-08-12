@@ -1,0 +1,147 @@
+.main {
+  display: flex;
+  height: 70vh;
+}
+
+.messagesContainer {
+  flex: 1;
+  height: 100%;
+  overflow: scroll;
+}
+
+.chatContainer {
+  flex: 2;
+  background-color: var(--grayBG);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 2rem;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.scrollableZone {
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+}
+
+.scrollableZone::-webkit-scrollbar {
+  display: none;
+}
+
+.messagesContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.conversation {
+  width: 100%;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.conversationContentMe {
+  max-width: 50%;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-size: 14px;
+  background-color: var(--primary);
+  color: var(--white);
+  margin-right: 0.5rem;
+  word-wrap: break-word;
+}
+
+.messageDate {
+  font-size: 10px;
+  float: right;
+  margin-top: 0.2rem;
+}
+
+.conversationContent {
+  max-width: 50%;
+  border: 1px solid var(--grayEdges);
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-size: 14px;
+  margin-left: 0.5rem;
+  word-wrap: break-word;
+  background-color: var(--white);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.writeMessageInput {
+  background-color: var(--white);
+  max-height: 40px;
+  padding: 0.2rem;
+  font-size: 13px;
+  line-height: 18px;
+  color: #999999;
+}
+
+.writeMessageInput Button {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.writeMessageInput Button:hover {
+  background-color: transparent;
+  color: var(--babyblue);
+}
+
+.avatarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  background-color: var(--white) !important;
+  color: var(--primary) !important;
+  border: 1px solid var(--grayTextsLight) !important;
+}
+
+.messageRow {
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  border-left: 4px solid transparent;
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.messageRow:hover {
+  background-color: var(--primary-light-opacity) !important;
+  border-left: 4px solid var(--primary);
+}
+
+.messageRowContent {
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+.sender {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.chatTitleContainer {
+  margin-right: auto;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: fit-content;
+  margin-top: 1rem;
+}
+
+.chatTitleContainer a {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.chatTitleContainer span {
+  color: var(--primary);
+  margin-right: 0.2rem;
+}

@@ -1,0 +1,24 @@
+{
+    "Account": "Account",
+    "Projects": "Projects",
+    "Project": "Project",
+    "project": "project",
+    "Messages": "Messages",
+    "Stocks": "Stocks",
+    "Machines": "Machines",
+    "FactoryGround": "Factory Ground",
+    "Assemblys": "Assemblys",
+    "Packages": "Packages",
+    "Leftovers": "Leftovers",
+    "Clients": "Clients",
+    "Users": "Users",
+    "Profiles": "Profiles",
+    "Logout": "Logout",
+    "SimilarProjects": "Similar Projects",
+    "Save": "Save",
+    "Edit": "Edit",
+    "Delete": "Delete",
+    "Cancel": "Cancel",
+
+    "": ""
+}

@@ -1,0 +1,58 @@
+.docsMain {
+  display: flex;
+}
+
+.tableContainer {
+  flex: 3;
+}
+
+.infoContainer {
+  flex: 1;
+  border-left: 2px solid var(--grayEdges);
+  padding: 2rem;
+}
+
+.innerInfoContainer {
+  flex: 1;
+  border: 1px solid var(--grayEdges);
+  border-radius: 8px;
+  padding: 2rem;
+  font-size: small;
+  margin-top: 1rem;
+}
+
+.docRow {
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  border-left: 4px solid transparent;
+  cursor: pointer;
+}
+
+.docRow:hover {
+  background-color: var(--primary-light-opacity) !important;
+  border-left: 4px solid var(--primary);
+}
+
+.docRowContent {
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+.docFolderRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  border-left: 4px solid transparent;
+  background-color: var(--white);
+  cursor: pointer;
+  padding: 1rem;
+  font-size: small;
+}
+
+.docFolderRow:hover {
+  background-color: var(--primary-light-opacity) !important;
+  border-left: 4px solid var(--primary);
+}
